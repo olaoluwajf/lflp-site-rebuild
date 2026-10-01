@@ -1,5 +1,5 @@
 const S='https://lflp-lagos.com/';
-export const HERO=S+'wp-content/uploads/2026/09/Homepage-main-image-web2-scaled.jpg';
+export const HERO='https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=2400&q=85';
 export const LOGO=S+'wp-content/uploads/2022/01/LFLPLOGO-removebg-preview.png';
 export const NAV=[
 ['About',[['A member of AEFE','why-lflp'],['Our story','our-story'],['Who are we?','who-are-we'],['Governance','our-governance'],['AFN management team','afn-management-team'],['French schools network','french-schools-networkaefe']]],
