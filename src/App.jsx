@@ -18,7 +18,7 @@ return<header className={`nav ${sc?'compact':''}`} onMouseLeave={()=>setOpen(nul
 <button className="burger" aria-label="Menu" aria-expanded={m} onClick={()=>setM(!m)}><span/><span/></button></div>
 <div className={`mega ${open!=null?'show':''}`}>{open!=null&&<ul>{NAV[open][1].map(([n,h])=><li key={n}><a href={h}>{n}</a></li>)}</ul>}</div>
 <div className={`drawer ${m?'show':''}`}>{NAV.map(([t,l],i)=><details key={t}><summary>{t}</summary>{l.map(([n,h])=><a key={n} href={h}>{n}</a>)}</details>)}<Btn href={'#/apply-to-lflp'}>Apply to LFLP</Btn></div></header>}
-function Hero(){return<section className="hero" id="top"><img src={HERO} alt="Students at Lycée Français Louis Pasteur, Lagos" fetchpriority="high"/><div className="veil"/><div className="wrap">
+function Hero(){return<section className="hero" id="top"><img src={HERO} alt="Students learning in a classroom" fetchpriority="high"/><div className="veil"/><div className="wrap">
 <p className="eyebrow">Lycée Français Louis Pasteur</p><h1><span>An International Education.</span><span>A World of Possibilities.</span></h1>
 <p className="lede">From kindergarten to senior school, LFLP Lagos provides a French education in an international environment, preparing students to thrive anywhere in the world.</p>
 <div className="row"><Btn href="#why">Discover LFLP</Btn><Btn ghost href={'#/apply-to-lflp'}>Apply to LFLP</Btn></div></div><span className="scrollcue" aria-hidden/></section>}
